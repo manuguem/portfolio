@@ -5,6 +5,14 @@ body {
     
 }
 
+header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  background-color: rgb(20, 20, 20);
+  text-align: center;
+}
+
 a{
     color: white;
     text-decoration: none;
