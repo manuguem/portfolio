@@ -1,0 +1,189 @@
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1980' height='4500' preserveAspectRatio='none' viewBox='0 0 1980 4500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1085%26quot%3b)' fill='none'%3e%3crect width='1980' height='4500' x='0' y='0' fill='rgba(24%2c 23%2c 23%2c 0.99)'%3e%3c/rect%3e%3cpath d='M0%2c1728.64C315.188%2c1781.421%2c609.419%2c1526.843%2c837.162%2c1302.649C1040.175%2c1102.8%2c1062.386%2c797.498%2c1199.527%2c547.806C1351.487%2c271.133%2c1706.779%2c72.582%2c1685.754%2c-242.375C1664.882%2c-555.032%2c1294.266%2c-707.241%2c1099.365%2c-952.605C893.132%2c-1212.234%2c834.321%2c-1673.981%2c506.923%2c-1726.421C166.925%2c-1780.879%2c-59.831%2c-1373.223%2c-347.769%2c-1184.394C-543.927%2c-1055.754%2c-745.589%2c-954.978%2c-915.707%2c-793.465C-1102.61%2c-616.016%2c-1318.375%2c-448.037%2c-1385.455%2c-199.198C-1455.721%2c61.458%2c-1421.766%2c353.698%2c-1288.192%2c588.298C-1158.959%2c815.275%2c-870.049%2c876.386%2c-674.479%2c1049.51C-430.645%2c1265.358%2c-321.174%2c1674.856%2c0%2c1728.64' fill='rgba(16%2c 15%2c 15%2c 0.99)'%3e%3c/path%3e%3cpath d='M1980 6695.807C2398.3559999999998 6660.612999999999 2455.998 6016.117 2796.605 5770.6630000000005 3108.25 5546.08 3609.125 5654.878 3845.0860000000002 5351.756 4086.76 5041.296 4106.844 4589.81 4013.312 4207.654 3923.25 3839.676 3635.524 3560.92 3346.7619999999997 3315.694 3089.709 3097.3959999999997 2760.5389999999998 3025.629 2454.533 2883.889 2085.32 2712.8720000000003 1757.257 2298.414 1362.367 2396.534 970.411 2493.925 876.0440000000001 3010.658 636.2950000000001 3335.673 418.7819999999999 3630.544 78.98800000000006 3856.584 18.74499999999989 4218.014-41.865999999999985 4581.651 121.44900000000007 4946.706 315.5229999999999 5260.141 494.5709999999999 5549.309 812.5070000000001 5693.765 1070.0520000000001 5915.906 1378.8049999999998 6182.216 1573.6979999999999 6729.987 1980 6695.807' fill='rgba(32%2c 31%2c 31%2c 0.99)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1085'%3e%3crect width='1980' height='4500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.bg-colormain {
+    background-color: white;
+    color: black;
+}
+
+.logoSize {
+    width: 32px;
+    height: 32px;
+}
+
+.logoNetworks {
+    width: 24px;
+    height: 24px;
+}
+
+.border-item {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0px 2px rgba(255, 255, 255, 0.753);
+
+  }
+  
+  .zoom {
+    transition: transform 0.5s;
+
+  }
+  .button-port {
+    margin-left: 6rem;
+  }
+
+.margin-portfolio {
+    margin-left: 20rem;
+}
+
+.logoText {
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+  }
+  
+  /* Lines of the Toggler */
+  .toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #4a4a4a;
+  
+    display: block;
+    transition: all 0.2s;
+  }
+  
+  /* Adds Space between the lines */
+  .middle-bar{
+    margin: 5px auto;
+  }
+  
+  /* State when navbar is opened (START) */
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  /* State when navbar is opened (END) */
+  
+  /* State when navbar is collapsed (START) */
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  /* State when navbar is collapsed (END) */
+  
+  /* Color of Toggler when collapsed */
+  .navbar-toggler.collapsed .toggler-icon {
+    background-color: #4a4a4a;
+  }
+
+  .card2 {
+    padding-top: 1.2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 25rem;
+    word-wrap: break-word;
+    background-color: rgb(20, 20, 20);
+    transition: 0.5s;
+    border-radius: 0.5rem;
+  }
+  
+  .card2:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+  }
+
+  .imgCardSize {
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px;
+
+  }
+
+  .center_Items {
+   text-align: center;
+  }
+
+  .marginTop {
+      margin-top: 2rem;
+  }
+
+  .card {
+      background-color: rgb(20, 20, 20);
+  }
+@media only screen and (max-width: 1232px) {
+
+    .margin-portfolio {
+        margin-left: auto;
+    }
+
+    .card {
+        height: auto;
+    }
+    
+    .button-port {
+        margin-left: 4.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .border-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .svg-position-mob {
+        position: relative;
+        bottom: 5rem;
+
+    }
+}
