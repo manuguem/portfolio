@@ -133,7 +133,7 @@ a:hover {
     width: auto;
     height: 25rem;
     word-wrap: break-word;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(33, 33, 33);
     transition: 0.5s;
     border-radius: 0.5rem;
   }
