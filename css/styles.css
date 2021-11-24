@@ -249,6 +249,10 @@ a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.navbar-collapse {
+  transition: all 0.1s;
+}
 @media only screen and (max-width: 1232px) {
 
     .margin-portfolio {
