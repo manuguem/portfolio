@@ -172,9 +172,14 @@ a:hover {
 
   /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 500px;
   position: relative;
   margin: auto;
+}
+
+div .bg-pcbuild {
+  background: rgb(33, 33, 33);
+  border-radius: 0.4rem;
 }
 
 /* Hide the images by default */
@@ -249,6 +254,7 @@ a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
+
 @media only screen and (max-width: 1232px) {
 
     .margin-portfolio {
