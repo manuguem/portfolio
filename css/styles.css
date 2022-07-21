@@ -358,6 +358,7 @@ div .bg-pcbuild {
     height: 46px;
     width: 46px;
     display: flex;
+    color: #4a4a4a;
   }
   .toppadding-mb {
     padding-top: 3rem;
