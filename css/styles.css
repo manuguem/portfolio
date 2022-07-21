@@ -10,12 +10,12 @@ header {
   top: 0;
   background-color: rgb(20, 20, 20);
   text-align: center;
+  box-shadow: 0 10px 17px 0px #202020;
 }
 
 .logoleft-arrow {
   display: none;
 }
-
 #nav-icon2 span {
   display: block;
   position: absolute;
@@ -355,6 +355,13 @@ div .bg-pcbuild {
 
 @media only screen and (max-width: 1232px) {
   .logoleft-arrow {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    color: #4a4a4a;
+  }
+
+  i {
     height: 46px;
     width: 46px;
     display: flex;
