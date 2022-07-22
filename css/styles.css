@@ -353,20 +353,22 @@ div .bg-pcbuild {
   }
 }
 
+.top-header {
+  padding-top: 2rem;
+}
+.img-size {
+  height: 400px;
+  width: 400px;
+  border-radius: 0.2rem;
+}
 @media only screen and (max-width: 1232px) {
   .logoleft-arrow {
     height: 46px;
     width: 46px;
     display: flex;
-    color: #4a4a4a;
+    color: #3b3b3b !important;
   }
 
-  i {
-    height: 46px;
-    width: 46px;
-    display: flex;
-    color: #4a4a4a;
-  }
   .toppadding-mb {
     padding-top: 3rem;
   }
@@ -375,10 +377,6 @@ div .bg-pcbuild {
   }
   .margin-portfolio {
     margin-left: auto;
-  }
-
-  .card {
-    height: auto;
   }
 
   .button-port {
@@ -394,5 +392,11 @@ div .bg-pcbuild {
   .svg-position-mob {
     position: relative;
     bottom: 5rem;
+  }
+
+  .img-size {
+    height: auto;
+    width: auto;
+    border-radius: 0.2rem;
   }
 }

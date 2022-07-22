@@ -10,6 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -36,174 +40,33 @@
         </nav>
     </header>
     <main>
-        <section class="marginTop">
-            <div class="container">
-                <div class="row padding-section">
-                    <div class="col-sm-3">
-                        <div class="slideshow-container">
-
-                            <!-- Full-width images with number and caption text -->
-                            <div class="mySlides1">
-                                <div class="numbertext border-item shadow">2 / 2</div>
-                                <img src="../images/img/pcarmadaryzen1.jpg" class="border-item">
-                            </div>
-
-                            <div class="mySlides1">
-                                <div class="numbertext border-item shadow">1 / 2</div>
-                                <img src="../images/img/pcarmadaryzen2.jpg" class="border-item">
-                            </div>
-                            <!-- Next and previous buttons -->
-                            <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
-                        </div>
-                        <br>
-                        <!-- The dots/circles -->
-                        <div style="text-align:center">
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                        </div>
-                        <p class="center-text"><b>Armado de PC APU Ryzen 5 2400G</b></p>
-                        <p>Motherboard: ASUS Prime A320M-H</p>
-                        <p>Procesador: Ryzen 5 2400G</p>
-                        <p>Gráficos Integrados: Radeon Vega 11</p>
-                        <p>RAM: 2x8gb 2666mhz Kingston</p>
-                        <p>Disco SSD: M.2 250gb HP</p>
-                        <p>Disco HDD: 500gb HP</p>
-                        <p>Fuente de poder: Redragon 500watts</p>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="slideshow-container">
-
-                            <!-- Full-width images with number and caption text -->
-                            <div class="mySlides2">
-                                <div class="numbertext border-item shadow">2 / 2</div>
-                                <img src="../images/img/pcryzen3-2.jpg" class="border-item">
-                                <div class="text"><b>Después</b></div>
-                            </div>
-                            <div class="mySlides2">
-                                <div class="numbertext border-item shadow">1 / 2</div>
-                                <img src="../images/img/pcryzen3-1.jpg" alt="" class="border-item">
-                                <div class="text"><b>Antes</b></div>
-                            </div>
-                            <!-- Next and previous buttons -->
-                            <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
-                        </div>
-                        <br>
-                        <!-- The dots/circles -->
-                        <div style="text-align:center">
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                        </div>
-                        <p class="center-text"><b>Mantenimiento, limpieza y gestión de cables PC APU AMD Ryzen 3
-                                3200G</b></p>
-                        <p>Motherboard: MSI A320M-H</p>
-                        <p>Procesador: Ryzen 3 3200G</p>
-                        <p>Gráficos Integrados: Radeon Vega 8</p>
-                        <p>RAM: 2x8gb 2666mhz Kingston</p>
-                        <p>Disco HDD: 1TB Seagate</p>
-                        <p>Fuente de poder: Genérica 500watts</p>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="slideshow-container">
-
-                            <!-- Full-width images with number and caption text -->
-                            <div class="mySlides3">
-                                <div class="numbertext border-item shadow">2 / 2</div>
-                                <img src="../images/img/ryzenasustuf2.jpg" alt="" class="border-item">
-                            </div>
-
-                            <div class="mySlides3">
-                                <div class="numbertext border-item shadow">1 / 2</div>
-                                <img src="../images/img/ryzenasustuf1.jpg" class="border-item">
-                            </div>
-                            <!-- Next and previous buttons -->
-                            <a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
-                        </div>
-                        <br>
-                        <!-- The dots/circles -->
-                        <div style="text-align:center">
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                        </div>
-                        <p class="center-text"><b>Instalación Tarjeta de vídeo ASUS TUF Gaming 1660 Super</b></p>
-                        <p>Motherboard: ASUS Prime A320M-H</p>
-                        <p>Procesador: Ryzen 5 2400G</p>
-                        <p>Tarjeta de vídeo: ASUS TUF Gaming 1660 Super</p>
-                        <p>RAM: 2x8gb 2666mhz Kingston</p>
-                        <p>Disco SSD: M.2 250gb HP</p>
-                        <p>Disco HDD: 500gb Seagate</p>
-                        <p>Fuente de poder: Redragon 500watts</p>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="slideshow-container">
-
-                            <!-- Full-width images with number and caption text -->
-                            <div class="mySlides4">
-                                <div class="numbertext border-item shadow">2 / 2</div>
-                                <img src="../images/img/intel2.jpg" alt="" class="border-item">
-                            </div>
-                            <div class="mySlides4">
-                                <div class="numbertext border-item shadow">1 / 2</div>
-                                <img src="../images/img/intel1.jpg" class="border-item">
-                            </div>
-                            <!-- Next and previous buttons -->
-                            <a class="prev" onclick="plusSlides(-1,3)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1,3)">&#10095;</a>
-
-                        </div>
-                        <br>
-                        <!-- The dots/circles -->
-                        <div style="text-align:center">
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                        </div>
-                        <p class="center-text"><b>Cambio de cooler stock Intel a Dual Cooler IDCooling SE-207-XT</b></p>
-                        <p>Motherboard: ASRock B460M Pro4</p>
-                        <p>Procesador: Intel Core i5 10400F</p>
-                        <p>Tarjeta de vídeo: MSI Radeon RX 5500XT Gaming X 8gb</p>
-                        <p>CPU Cooler: Dual Cooler IDCooling SE-207-XT</p>
-                        <p>RAM: 2x8gb 3200mhz HP</p>
-                        <p>Disco SSD: M.2 240gb Kingston</p>
-                        <p>Disco HDD: 1TB Seagate</p>
-                        <p>Fuente de poder: Aerocool Cylon 600watts</p>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="slideshow-container">
-
-                            <!-- Full-width images with number and caption text -->
-                            <div class="mySlides5">
-                                <div class="numbertext border-item shadow">2 / 2</div>
-                                <img src="../images/img/pcclienta2.PNG" alt="" class="border-item">
-                            </div>
-                            <div class="mySlides5">
-                                <div class="numbertext border-item shadow">1 / 2</div>
-                                <img src="../images/img/pcclienta.PNG" class="border-item">
-                            </div>
-                            <!-- Next and previous buttons -->
-                            <a class="prev" onclick="plusSlides(-1,4)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1,4)">&#10095;</a>
-
-                        </div>
-                        <br>
-                        <!-- The dots/circles -->
-                        <div style="text-align:center">
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                        </div>
-                        <p class="center-text"><b>Recliclado/ensamblado de partes de PC de hace 15 años a PC Nueva</b>
-                        </p>
-                        <p>Motherboard-Gigabyte-A320M-H</p>
-                        <p>Procesador: AMD-apu-A6-9500e-3.0-ghz</p>
-                        <p>RAM: 2x8gb Crucial-4GB-2666-Mhz</p>
-                        <p>Disco SSD: SSD-256GB-Neo-Forza-M2-SATA</p>
-                        <p>Disco HDD: 1TB Seagate</p>
-                        <p>Fuente de poder: Genérica 550watts</p>
-                    </div>
-                </div>
+        <section class="container-xl">
+            <h5 class="top-header">Actualización componentes/ensamblado APU Ryzen 3 2200G</h5>
+            <div class="owl-carousel owl-theme top-header">
+                <div class="item card"><img class="img-size"src="../images/img/ryzen32200g4.webp"></div>
+                <div class="item card"><img class="img-size" src="../images/img/ryzen32200g3.webp" alt=""></div>
+                <div class="item card"><img class="img-size"src="../images/img/ryzen32220g.jpg" alt=""></div>
+                <div class="item card"><img class="img-size"src="../images/img/ryzen32200g2.webp" alt=""></div>
+                <div class="item card"><img class="img-size"src="../images/img/ryzen32200g1.webp" alt=""></div>
             </div>
-        </section>
+            <h5 class="top-header">Cambio de cooler stock Intel a Dual Cooler IDCooling SE-207-XT</h5>
+            <div class="owl-carousel owl-theme top-header">
+                <div class="item card"><img src="../images/img/intel2.jpg" ></div>
+                <div class="item card"><img src="../images/img/cooleridcooling.jpg" alt=""></div>
+                <div class="item card"><img src="../images/img/intel1.jpg" alt=""></div>
+
+            </div>
+            <h5 class="top-header">Instalación Tarjeta de vídeo ASUS TUF Gaming 1660 Super</h5>
+            <div class="owl-carousel owl-theme top-header">
+                <div class="item card"><img src="../images/img/ryzenasustuf1.jpg" ></div>
+                <div class="item card"><img src="../images/img/ryzenasustuf2.jpg" alt=""></div>
+            </div>
+            <h5 class="top-header">Armado de PC APU Ryzen 5 2400G</h5>
+        <div class="owl-carousel owl-theme top-header">
+            <div class="item card"><img src="../images/img/pcarmadaryzen1.jpg" ></div>
+            <div class="item card"><img src="../images/img/pcarmadaryzen2.jpg" alt=""></div>
+        </div>
+    </section>
     </main>
     <footer class="footer-pading">
         <!-- Grid container -->
@@ -236,55 +99,37 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-<script>
-    var slideIndex = [1, 2];
-    /* Class the members of each slideshow group with different CSS classes */
-    var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"]
-    showSlides(1, 0);
-    showSlides(1, 1);
-    showSlides(1, 2);
-    showSlides(1, 3);
-    showSlides(1, 4);
+    <script src="jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  responsiveClass: true,
+  responsive: {
 
+    0: {
+      items: 2,
+      nav: false,
+      loop: false,
+      autoplay: true,
+      rewind: true,
+      dots:false
 
-
-    function plusSlides(n, no) {
-        showSlides(slideIndex[no] += n, no);
+    },
+    600: {
+      items: 2,
+      nav: false,
+      dots: false
+    },
+    1000: {
+      items: 5,
+      nav: false,
+      loop: false,
+      autoplay: true,
+      rewind: true,
     }
-
-    function showSlides(n, no) {
-        var i;
-        var x = document.getElementsByClassName(slideId[no]);
-        if (n > x.length) { slideIndex[no] = 1 }
-        if (n < 3) { slideIndex[no] = x.length }
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        x[slideIndex[no] - 1].style.display = "block";
-    }
+  }
+})
 </script>
-
-</html>
-
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <script src="./imageArray.js"></script>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Image Iteration</title>
-  </head>
-  <body>
-    <h1>Click to see the next image</h1>
-    <div id="splash">
-      <img
-        src="../images/img/pcarmadaryzen1.jpg"
-        alt="classroom image"
-        id="mainImage"
-      />
-    </div>
-    <div id="controls">
-      <button id="previousbtn" onclick="previousImage()">Previous Image</button>
-      <button id="nextbtn" onclick="nextImage()">Next Image</button>
-    </div>
-  </body>
-</html> -->
