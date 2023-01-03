@@ -18,8 +18,8 @@ header {
   box-shadow: 0 10px 17px 0px #202020;
 }
 
-.fa-arrow-left {
-  display: none;
+.fa-solid {
+  display: none !important;
 }
 #nav-icon2 span {
   display: block;
@@ -367,11 +367,11 @@ div .bg-pcbuild {
   border-radius: 0.2rem;
 }
 @media only screen and (max-width: 1232px) {
-  .fa-arrow-left {
-    padding: 0.5rem;
-    font-size: 2rem;
-    color: #3b3b3b;
-    display: flex;
+  .fa-solid {
+    padding: 0.5rem !important;
+    font-size: 2rem !important;
+    color: #3b3b3b !important;
+    display: flex !important;
   }
   .toppadding-mb {
     padding-top: 3rem;
@@ -402,5 +402,9 @@ div .bg-pcbuild {
     height: auto;
     width: auto;
     border-radius: 0.2rem;
+  }
+
+  .hide-content {
+    display: none;
   }
 }
