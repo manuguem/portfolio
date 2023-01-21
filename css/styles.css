@@ -264,6 +264,12 @@ a:hover {
   background-color: rgb(20, 20, 20);
 }
 
+.card3 {
+  padding: 3rem;
+  background-color: rgb(20, 20, 20);
+  border-radius: 0.3rem;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
@@ -358,6 +364,15 @@ div .bg-pcbuild {
   }
 }
 
+.owl-carousel .owl-stage {
+  display: flex;
+  padding-top: 10rem;
+}
+
+.owl-carousel .owl-item img {
+  width: auto;
+  height: auto;
+}
 .top-header {
   padding-top: 2rem;
 }
@@ -399,12 +414,19 @@ div .bg-pcbuild {
   }
 
   .img-size {
-    height: auto;
-    width: auto;
+    height: 300px;
+    width: 300px;
     border-radius: 0.2rem;
   }
 
   .hide-content {
     display: none;
+  }
+  .card3 {
+    padding: 3rem;
+    background-color: rgb(20, 20, 20);
+    border-radius: 0.3rem;
+    height: auto;
+    width: auto;
   }
 }
