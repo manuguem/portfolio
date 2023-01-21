@@ -267,7 +267,7 @@ a:hover {
 .card3 {
   padding: 3rem;
   background-color: rgb(20, 20, 20);
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 /* Slideshow container */
@@ -364,20 +364,11 @@ div .bg-pcbuild {
   }
 }
 
-.owl-carousel .owl-stage {
-  display: flex;
-  padding-top: 10rem;
-}
-
-.owl-carousel .owl-item img {
-  width: auto;
-  height: auto;
-}
 .top-header {
   padding-top: 2rem;
 }
 .img-size {
-  height: 400px;
+  height: 500px;
   width: 400px;
   border-radius: 0.2rem;
 }
@@ -415,8 +406,8 @@ div .bg-pcbuild {
 
   .img-size {
     height: 300px;
-    width: 300px;
-    border-radius: 0.2rem;
+    width: 250px;
+    border-radius: 0.3rem;
   }
 
   .hide-content {
@@ -425,7 +416,7 @@ div .bg-pcbuild {
   .card3 {
     padding: 3rem;
     background-color: rgb(20, 20, 20);
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     height: auto;
     width: auto;
   }
