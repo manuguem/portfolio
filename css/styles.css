@@ -238,6 +238,7 @@ a:hover {
   background-color: rgb(33, 33, 33);
   transition: 0.5s;
   border-radius: 0.5rem;
+  text-shadow: 2px 2px #555353;
 }
 
 .card2:hover {
