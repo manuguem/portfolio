@@ -245,6 +245,14 @@ a:hover {
   transition: 0.5s;
 }
 
+.card-title {
+  text-align: center;
+}
+
+.btn {
+  align-items: center;
+}
+
 .imgCardSize {
   border-radius: 50%;
   width: 200px;
@@ -421,5 +429,6 @@ div .bg-pcbuild {
     width: auto;
     text-align: center;
     box-shadow: 0 5px 20px 2px #202020;
+    text-shadow: 2px 2px #555353;
   }
 }
