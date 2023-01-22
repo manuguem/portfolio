@@ -405,8 +405,8 @@ div .bg-pcbuild {
   }
 
   .img-size {
-    height: 300px;
-    width: 250px;
+    height: 400px;
+    width: 350px;
     border-radius: 0.3rem;
   }
 
@@ -419,5 +419,7 @@ div .bg-pcbuild {
     border-radius: 0.5rem;
     height: auto;
     width: auto;
+    text-align: center;
+    box-shadow: 0 5px 20px 2px #202020;
   }
 }
