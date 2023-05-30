@@ -31,6 +31,11 @@ header {
 .carousel-inner {
   padding: 1em;
 }
+
+.carousel-fade .item {
+  transition: opacity ease-out 0.7s;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
   background-color: #e1e1e1;
