@@ -32,7 +32,7 @@ header {
   padding: 1em;
 }
 
-.carousel-fade .item {
+.carousel-item {
   transition: opacity ease-out 0.1s;
 }
 
