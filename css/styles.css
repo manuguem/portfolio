@@ -33,7 +33,7 @@ header {
 }
 
 .carousel-item {
-  transition: opacity ease-out 0.1s;
+  transition: opacity ease-out 0.5s;
 }
 
 .carousel-control-prev,
