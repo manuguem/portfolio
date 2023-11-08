@@ -8,7 +8,6 @@ body {
   background-image: linear-gradient(180deg, #202020 51%, #818181 100%);
 
   color: white;
-  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -18,6 +17,17 @@ header {
   background-color: #202020;
   text-align: center;
   box-shadow: 0 10px 17px 0px #202020;
+}
+
+footer {
+  clear: both;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  margin-top: 5vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 10vh;
 }
 .cards-wrapper {
   display: flex;
@@ -286,8 +296,8 @@ button {
 
 .imgCardSize {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   align-self: center;
 }
 
@@ -445,8 +455,8 @@ div .bg-pcbuild {
   }
 
   .img-size {
-    height: 420px;
-    width: 400px;
+    height: 370px;
+    width: 315px;
     border-radius: 0.1rem;
   }
 
@@ -458,5 +468,12 @@ div .bg-pcbuild {
     background-color: transparent;
     border-radius: 0.5rem;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+
+  .card2 {
+    box-shadow: none;
   }
 }
